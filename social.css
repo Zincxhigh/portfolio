@@ -1,0 +1,46 @@
+.socialContainer {
+  width: 60px;
+  border: solid rgb(255, 255, 255);
+  position: relative;
+  border-radius: 10px;
+  height: 60px;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  transition: transform 0.3s;
+}
+/* instagram*/
+.containerOne:hover {
+  background-color: #d62976;
+  transform: scale(1.5);
+}
+/* twitter*/
+.containerTwo:hover {
+  background-color: #00acee;
+  transform: scale(1.5);
+}
+/* linkdin*/
+.containerThree:hover {
+  background-color: #0072b1;
+  transform: scale(1.5);
+}
+/* Whatsapp*/
+.containerFour:hover {
+  background-color: #128c7e;
+  transform: scale(1.5);
+}
+
+.socialContainer:active {
+  transform: scale(0.9);
+  transition-duration: 0.3s;
+}
+
+.socialSvg {
+  width: 20px;
+}
+
+.socialSvg path {
+  fill: rgb(0, 0, 0);
+}
